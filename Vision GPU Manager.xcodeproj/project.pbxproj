@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100A039F28867BE200924E87 /* ServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A039E28867BE200924E87 /* ServerView.swift */; };
+		104CC0A1287859FE00F65692 /* GPUTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104CC0A0287859FE00F65692 /* GPUTileView.swift */; };
 		10B01A9328780E2000F25C13 /* Vision_GPU_ManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01A9228780E2000F25C13 /* Vision_GPU_ManagerApp.swift */; };
 		10B01A9528780E2000F25C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01A9428780E2000F25C13 /* ContentView.swift */; };
 		10B01A9728780E2100F25C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B01A9628780E2100F25C13 /* Assets.xcassets */; };
@@ -14,6 +16,16 @@
 		10B01AA428780E2100F25C13 /* Vision_GPU_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01AA328780E2100F25C13 /* Vision_GPU_ManagerTests.swift */; };
 		10B01AAE28780E2100F25C13 /* Vision_GPU_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01AAD28780E2100F25C13 /* Vision_GPU_ManagerUITests.swift */; };
 		10B01AB028780E2100F25C13 /* Vision_GPU_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01AAF28780E2100F25C13 /* Vision_GPU_ManagerUITestsLaunchTests.swift */; };
+		10B01ABE28780EC200F25C13 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 10B01ABD28780EC200F25C13 /* FirebaseAuth */; };
+		10B01AC028780EC200F25C13 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 10B01ABF28780EC200F25C13 /* FirebaseAuthCombine-Community */; };
+		10B01AC228780EC200F25C13 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 10B01AC128780EC200F25C13 /* FirebaseDatabase */; };
+		10B01AC428780EC200F25C13 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 10B01AC328780EC200F25C13 /* FirebaseDatabaseSwift */; };
+		10B01AC628780EC200F25C13 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 10B01AC528780EC200F25C13 /* FirebaseFunctions */; };
+		10B01AC828780EC200F25C13 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 10B01AC728780EC200F25C13 /* FirebaseInstallations */; };
+		10B01ACA28780EEA00F25C13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10B01AC928780EEA00F25C13 /* GoogleService-Info.plist */; };
+		10B01ACC2878109500F25C13 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01ACB2878109500F25C13 /* LoginView.swift */; };
+		10B01ACE2878212C00F25C13 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01ACD2878212C00F25C13 /* SignUpView.swift */; };
+		10B01AD0287841D000F25C13 /* GPUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B01ACF287841D000F25C13 /* GPUView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100A039E28867BE200924E87 /* ServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerView.swift; sourceTree = "<group>"; };
+		104CC0A0287859FE00F65692 /* GPUTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUTileView.swift; sourceTree = "<group>"; };
 		10B01A8F28780E2000F25C13 /* Vision GPU Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vision GPU Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B01A9228780E2000F25C13 /* Vision_GPU_ManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision_GPU_ManagerApp.swift; sourceTree = "<group>"; };
 		10B01A9428780E2000F25C13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,12 @@
 		10B01AA928780E2100F25C13 /* Vision GPU ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vision GPU ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B01AAD28780E2100F25C13 /* Vision_GPU_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision_GPU_ManagerUITests.swift; sourceTree = "<group>"; };
 		10B01AAF28780E2100F25C13 /* Vision_GPU_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision_GPU_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10B01AC928780EEA00F25C13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10B01ACB2878109500F25C13 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		10B01ACD2878212C00F25C13 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		10B01ACF287841D000F25C13 /* GPUView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUView.swift; sourceTree = "<group>"; };
+		10FE4D492886719800D9FE3E /* Vision GPU Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vision GPU Manager.entitlements"; sourceTree = "<group>"; };
+		10FE4D4A288671BF00D9FE3E /* Vision-GPU-Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Vision-GPU-Manager-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B01AC428780EC200F25C13 /* FirebaseDatabaseSwift in Frameworks */,
+				10B01AC228780EC200F25C13 /* FirebaseDatabase in Frameworks */,
+				10B01AC628780EC200F25C13 /* FirebaseFunctions in Frameworks */,
+				10B01AC828780EC200F25C13 /* FirebaseInstallations in Frameworks */,
+				10B01ABE28780EC200F25C13 /* FirebaseAuth in Frameworks */,
+				10B01AC028780EC200F25C13 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +120,16 @@
 		10B01A9128780E2000F25C13 /* Vision GPU Manager */ = {
 			isa = PBXGroup;
 			children = (
+				10FE4D4A288671BF00D9FE3E /* Vision-GPU-Manager-Info.plist */,
+				10FE4D492886719800D9FE3E /* Vision GPU Manager.entitlements */,
 				10B01A9228780E2000F25C13 /* Vision_GPU_ManagerApp.swift */,
+				10B01ACB2878109500F25C13 /* LoginView.swift */,
+				10B01ACF287841D000F25C13 /* GPUView.swift */,
+				104CC0A0287859FE00F65692 /* GPUTileView.swift */,
+				100A039E28867BE200924E87 /* ServerView.swift */,
+				10B01ACD2878212C00F25C13 /* SignUpView.swift */,
 				10B01A9428780E2000F25C13 /* ContentView.swift */,
+				10B01AC928780EEA00F25C13 /* GoogleService-Info.plist */,
 				10B01A9628780E2100F25C13 /* Assets.xcassets */,
 				10B01A9828780E2100F25C13 /* Preview Content */,
 			);
@@ -143,6 +177,14 @@
 			dependencies = (
 			);
 			name = "Vision GPU Manager";
+			packageProductDependencies = (
+				10B01ABD28780EC200F25C13 /* FirebaseAuth */,
+				10B01ABF28780EC200F25C13 /* FirebaseAuthCombine-Community */,
+				10B01AC128780EC200F25C13 /* FirebaseDatabase */,
+				10B01AC328780EC200F25C13 /* FirebaseDatabaseSwift */,
+				10B01AC528780EC200F25C13 /* FirebaseFunctions */,
+				10B01AC728780EC200F25C13 /* FirebaseInstallations */,
+			);
 			productName = "Vision GPU Manager";
 			productReference = 10B01A8F28780E2000F25C13 /* Vision GPU Manager.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +257,9 @@
 				Base,
 			);
 			mainGroup = 10B01A8628780E2000F25C13;
+			packageReferences = (
+				10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 10B01A9028780E2000F25C13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B01A9A28780E2100F25C13 /* Preview Assets.xcassets in Resources */,
+				10B01ACA28780EEA00F25C13 /* GoogleService-Info.plist in Resources */,
 				10B01A9728780E2100F25C13 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B01ACE2878212C00F25C13 /* SignUpView.swift in Sources */,
+				10B01ACC2878109500F25C13 /* LoginView.swift in Sources */,
 				10B01A9528780E2000F25C13 /* ContentView.swift in Sources */,
 				10B01A9328780E2000F25C13 /* Vision_GPU_ManagerApp.swift in Sources */,
+				10B01AD0287841D000F25C13 /* GPUView.swift in Sources */,
+				100A039F28867BE200924E87 /* ServerView.swift in Sources */,
+				104CC0A1287859FE00F65692 /* GPUTileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,12 +465,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vision GPU Manager/Vision GPU Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Vision GPU Manager/Preview Content\"";
 				DEVELOPMENT_TEAM = JLZRPHJ6FP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vision-GPU-Manager-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -443,12 +496,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vision GPU Manager/Vision GPU Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Vision GPU Manager/Preview Content\"";
 				DEVELOPMENT_TEAM = JLZRPHJ6FP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vision-GPU-Manager-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +638,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 9.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10B01ABD28780EC200F25C13 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		10B01ABF28780EC200F25C13 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		10B01AC128780EC200F25C13 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		10B01AC328780EC200F25C13 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		10B01AC528780EC200F25C13 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		10B01AC728780EC200F25C13 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10B01ABC28780EC200F25C13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 10B01A8728780E2000F25C13 /* Project object */;
 }
